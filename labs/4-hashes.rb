@@ -30,3 +30,18 @@ bitcoin = bitcoin.to_f
 
 # 3. inspect the bitcoin_data hash
 # puts bitcoin_data
+
+#write the number of bitcoin the yser has to screen
+puts "You have #{bitcoin} bitcoin."
+
+#get the conversion rate from the Coinbase API
+conversion_rate = bitcoin_data ["bpi"] ["USD"] ["rate_float"]
+
+#write the conversion rate to screen
+puts "The current Bitcoin rate is #{conversion_rate} USD." 
+
+#determine the amount of USD in Bitcoin I have
+usd_value = bitcoin = conversion_rate
+
+#write the USD value to screen
+puts "You have #{usd_value} USD worth of Bitcoin."
