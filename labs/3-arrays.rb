@@ -23,22 +23,19 @@ aarons_list = ["kale", "avocado", "berries"]
 bens_list = ["ice cream", "pizza", "cheese", "beer"]
 
 #combine two lists together and store in memory
-combine_list = aarons_list + bens_list
+combined_list = aarons_list + bens_list
 
 #sort the list into a new list in memory
-
-puts combine_list
-
-#sort the list into a new list in memory
-sorted_list = combine_list.sort
-
-puts sorted_list
+sorted_list = combined_list.sort
 
 #remove non-uniqe items from the list
-
 unique_list = sorted_list.uniq
 
+#write the list to the screen, prepending each item with "buy"
+puts "Buy #{unique_list[0]}"
 puts "Buy #{unique_list[1]}"
 puts "Buy #{unique_list[2]}"
-
-#write the list to the screen, prepending each item with "buy"
+puts "Buy #{unique_list[3]}"
+puts "Buy #{unique_list[4]}"
+puts "Buy #{unique_list[5]}"
+puts "Buy #{unique_list[6]}"
