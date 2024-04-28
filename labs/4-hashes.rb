@@ -41,7 +41,7 @@ conversion_rate = bitcoin_data ["bpi"] ["USD"] ["rate_float"]
 puts "The current Bitcoin rate is #{conversion_rate} USD." 
 
 #determine the amount of USD in Bitcoin I have
-usd_value = bitcoin = conversion_rate
+usd_value = bitcoin * conversion_rate
 
 #write the USD value to screen
 puts "You have #{usd_value} USD worth of Bitcoin."
