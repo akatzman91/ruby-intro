@@ -40,6 +40,6 @@ my_favorite_thing = "tacos"
 number_of_things = 3
 
 #display the two togehter
-puts "#{number_of_things} #{my_favorite_things}"
+puts "my order is...#{number_of_things} #{my_favorite_thing}"
 
 # String manipulation

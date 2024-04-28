@@ -3,12 +3,13 @@
 # ruby 2-conditionals.rb
 
 # Booleans
-if 2 + 2 == 4
+if 2 + 2 == 5
     puts "Cool!"
     puts "Really cool!"
 end
 # Boolean Expressions
 
+###Input
 # set a variable to my favorite food in memory
 favorite_food = "tacos"
 
@@ -18,6 +19,7 @@ least_favorite_food = "kale"
 #set another variable to the food being served
 served_food = "tacos"
 
+### Algorithm
 #If the food being served is my favorite, then cool
 if served_food == favorite_food
 ###Output
