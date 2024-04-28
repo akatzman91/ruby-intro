@@ -4,8 +4,8 @@
 
 # Hashes are lists of *key-value pairs*
 my_profile = {
-    "name" => {
-        "first" = "Aaron",
+    "name" => { 
+        "first" => "Aaron",
         "last" => "Katzman"
     },
     "location" => {
@@ -13,8 +13,10 @@ my_profile = {
         "state" => "Illinois"
     },
     "timeline" => [
-        "learning at Kellogg"
-        "ate smoothies"
+        "learning at Kellogg",
+        "ate smoothies",
         "ate breakfast"
     ]
-
+}
+#write the most recent thing I'm doing to screen
+puts my_profile["timeline"][0]
